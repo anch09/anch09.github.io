@@ -4,90 +4,105 @@
     margin: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
 .nav-bar{
     background-color: rgb(104, 187, 255);
     height: 6vh;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav__logo {
-    position: absolute;
-    left: 20px;
-    margin: 10px;
+    padding: 1rem;
 }
 
 .nav__lista{
-    position: absolute;
-    right: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
 }
 
 .nav__lista-elemento {
-    display: inline-block;
-    list-style: none;
-    margin: 10px;
+    padding: 1rem;
+}
+
+main {
+    display: flex;
 }
 
 .main__botones {
-    position: relative;
     background-color: rgb(255, 95, 122);
-    display: inline-block;
-    height: 61vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .main__boton {
-    position: relative;
     padding: 40px 80px;
-    margin: 10px;
-    border: 1px rgb(247, 99, 124) solid;
-    display: block;
-    border-radius: 5px;
+    margin: 1rem;
+    border: .1rem rgb(247, 99, 124) solid;
+    border-radius: .5rem;
     background-color: rgb(255, 217, 255);
 }
 
 .main__contenido {
-    position: absolute;
-    display: inline-block;
-    height: 61vh;
+    padding: 1rem;
     background-color: rgb(188, 253, 122);
 }
 
 footer {
     background-color: rgb(252, 152, 70);
-    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer__contacto {
-    display: inline-block;
-    left: 5%;
-    position: relative;
-    padding: 5px 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer__contacto_titulo{
-    padding: 5px 0;
-    display: block;
+    padding: .5rem;
+}
+
+.footer__contacto_lista{
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer__contacto_lista_item{
-    display: block;
     list-style: none;
-    padding: 5px 0;
+    padding: 1rem;
 }
 
-.footer__redes-sociales {
-    display: inline-block;
-    right: 10%;
-    padding: 5px 0;
-    position: absolute;
+.footer__redes-sociales { 
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__redes-sociales_titulo{
-    padding: 5px 0;
-    display: block;
+    padding: 1rem;
+}
+
+.footer__redes-sociales_lista {
+    display: flex;
 }
 
 .footer__redes-sociales_lista_item {
-    position: relative;
-    display: block;
     list-style: none;
-    padding: 5px 0;
+    padding: 1rem;
 }

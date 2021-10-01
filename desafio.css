@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: rgb(104, 187, 255);
+    height: 6vh;
+}
+
+.nav__logo {
+    position: absolute;
+    left: 20px;
+    margin: 10px;
+}
+
+.nav__lista{
+    position: absolute;
+    right: 50px;
+}
+
+.nav__lista-elemento {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;
+}
+
+.main__botones {
+    position: relative;
+    background-color: rgb(255, 95, 122);
+    display: inline-block;
+    height: 61vh;
+}
+
+.main__boton {
+    position: relative;
+    padding: 40px 80px;
+    margin: 10px;
+    border: 1px rgb(247, 99, 124) solid;
+    display: block;
+    border-radius: 5px;
+    background-color: rgb(255, 217, 255);
+}
+
+.main__contenido {
+    position: absolute;
+    display: inline-block;
+    height: 61vh;
+    background-color: rgb(188, 253, 122);
+}
+
+footer {
+    background-color: rgb(252, 152, 70);
+    height: 17vh;
+}
+
+.footer__contacto {
+    display: inline-block;
+    left: 5%;
+    position: relative;
+    padding: 5px 0;
+}
+
+.footer__contacto_titulo{
+    padding: 5px 0;
+    display: block;
+}
+
+.footer__contacto_lista_item{
+    display: block;
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer__redes-sociales {
+    display: inline-block;
+    right: 10%;
+    padding: 5px 0;
+    position: absolute;
+}
+
+.footer__redes-sociales_titulo{
+    padding: 5px 0;
+    display: block;
+}
+
+.footer__redes-sociales_lista_item {
+    position: relative;
+    display: block;
+    list-style: none;
+    padding: 5px 0;
+}

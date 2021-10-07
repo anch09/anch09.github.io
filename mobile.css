@@ -48,10 +48,14 @@ header {
     z-index: 1;
 }
 
-.lista__item:hover {
+.lista__item:active {
     background-color: rgb(224, 224, 224);
     border-radius: 2.5rem;
     color: rgb(95, 95, 95);
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav-bar__lista-izquierda{
